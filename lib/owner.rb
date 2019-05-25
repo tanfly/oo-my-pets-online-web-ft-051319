@@ -23,6 +23,9 @@ end
 def buy_cat(kitties_name)
   @pets[:cats] << Cat.new(kitties_name)
 end
+
+def buy_dog(doggies_name)
+  @pets[:dogs] << Dog.new(doggies_name)
   
 def self.all 
   @@all
