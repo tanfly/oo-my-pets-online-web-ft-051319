@@ -20,7 +20,6 @@ def buy_fish(fishies_name)
   fish.new(fishies_name)
 end
   
-
 def self.all 
   @@all
 end
