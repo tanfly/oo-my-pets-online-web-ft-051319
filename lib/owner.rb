@@ -57,6 +57,8 @@ def feed_fish
     end
   end
 end
+
+def sell_pets
   
 def self.all 
   @@all
