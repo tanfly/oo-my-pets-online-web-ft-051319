@@ -37,6 +37,8 @@ def walk_dogs
     end
   end
 end
+
+def play_with_cats
   
 def self.all 
   @@all
