@@ -21,7 +21,7 @@ def buy_fish(fishies_name)
 end
 
 def buy_cat(kitties_name)
-  @pets[:cats] << Cats.new(kitties_name)
+  @pets[:cats] << Cat.new(kitties_name)
 end
   
 def self.all 
