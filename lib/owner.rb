@@ -17,6 +17,7 @@ def say_species
 end
 
 def buy_fish(fishies_name)
+  fish.new(fishies_name)
   
 
 def self.all 
