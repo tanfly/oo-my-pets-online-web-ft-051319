@@ -11,6 +11,9 @@ def initialize(species)
   @@all << self
 end
 
+def say_species 
+  "I am a #{species}"
+
 def self.all 
   @@all
 end
