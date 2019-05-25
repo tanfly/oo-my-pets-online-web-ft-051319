@@ -3,10 +3,11 @@ class Owner
 @@all= []
 
 
-attr_accessor :name 
+attr_accessor :name, :species
 
-def initialize(name)
+def initialize(name, species)
   @name = name 
+  @species = species
   @@all << self
 end
 
@@ -22,6 +23,5 @@ def self.reset_all
   @@all.clear 
 end
 
-def species
 
 end
