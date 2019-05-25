@@ -65,7 +65,6 @@ def sell_pets
       end 
     end
   end
-end
   
 def self.all 
   @@all
