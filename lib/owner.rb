@@ -47,6 +47,16 @@ def play_with_cats
     end
   end
 end
+
+def feed_fish
+   @pets.each do |species, pets|
+    if species == :fish
+      pets.each do |fish|
+        fish.mood = "happy"
+      end 
+    end
+  end
+end
   
 def self.all 
   @@all
