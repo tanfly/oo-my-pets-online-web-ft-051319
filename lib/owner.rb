@@ -16,12 +16,11 @@ def self.all
 end
 
 def self.count 
-  @@count
+  @@all.count
 end
 
 def self.reset_all 
   @@all.clear 
-  @@count
 end
 
 end
