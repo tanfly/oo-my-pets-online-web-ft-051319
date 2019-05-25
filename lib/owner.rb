@@ -42,7 +42,7 @@ def play_with_cats
    @pets.each do |species, pets|
     if species == :cats
       pets.each do |cat|
-        dog.mood = "happy"
+        cat.mood = "happy"
       end 
     end
   end
