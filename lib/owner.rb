@@ -67,6 +67,11 @@ def sell_pets
     end
   end
   
+  def list_pets 
+    fish_number = @pets[:fishes].size
+    dog_number = @pets[:dogs].size 
+    cat_number = @pets[:cats].size
+  
 def self.all 
   @@all
 end
