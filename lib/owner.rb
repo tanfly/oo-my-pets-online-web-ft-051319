@@ -50,7 +50,7 @@ end
 
 def feed_fish
    @pets.each do |species, pets|
-    if species == :fish
+    if species == :fishes
       pets.each do |fish|
         fish.mood = "happy"
       end 
