@@ -39,6 +39,14 @@ def walk_dogs
 end
 
 def play_with_cats
+   @pets.each do |species, pets|
+    if species == :cats
+      pets.each do |cat|
+        dog.mood = "happy"
+      end 
+    end
+  end
+end
   
 def self.all 
   @@all
