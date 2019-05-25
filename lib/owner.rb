@@ -17,7 +17,7 @@ def say_species
 end
 
 def buy_fish(fishies_name)
-  Fish.new(fishies_name)
+  @pets[:fishes] << Fish.new(fishies_name)
 end
   
 def self.all 
