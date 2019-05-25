@@ -72,6 +72,7 @@ def sell_pets
     dog_number = @pets[:dogs].size 
     cat_number = @pets[:cats].size
     "I have #{fish_number} fish, #{dog_number} dog(s), and #{cat_number} cat(s)."
+  end
   
 def self.all 
   @@all
