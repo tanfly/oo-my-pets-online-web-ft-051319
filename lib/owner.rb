@@ -26,6 +26,7 @@ end
 
 def buy_dog(doggies_name)
   @pets[:dogs] << Dog.new(doggies_name)
+end
   
 def self.all 
   @@all
